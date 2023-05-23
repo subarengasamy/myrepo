@@ -1,0 +1,127 @@
+text decotion: example
+
+
+<html> 
+<head> 
+<link rel="stylesheet" href="style1.css"> 
+</head> 
+<body> 
+<p class="first"> Dont Giveup! Keep on Trying! </p>
+<p class="second">Even though it seems to be impossible, It will happen in your life one day. </p>
+<p class="third"> All the very best Friends! Wait to receive the surprises in your life!!!!!!</p>
+</body> 
+</html>
+
+
+Css style for above:
+
+
+p.first 
+{color:green; text-decoration:overline; text-transform:uppercase; text-indent:50px;}
+p.second 
+{color:#0000ff; text-align:right; text-decoration:line-through; text-transform:lowercase;}
+p.third
+{color:rgb(255,0,0); text-align:center; text-decoration:underline; text-decoration:capitalize;}
+
+
+
+table html
+
+
+<html>
+<head> 
+<link rel="stylesheet" href="styles/style1.css"> 
+</head> 
+<body> <table>
+<tr>
+<th>Name</th>
+<th>Marks</th>
+<th>Rank</th>
+</tr>
+<tr>
+<td>Nanthan</td>
+<td>450</td>
+<td>Pass</td>
+</tr>
+
+<tr>
+<th>Venba</th>
+<th>445</th>
+<th>Pass</th>
+</tr>
+
+</table></body> 
+</html>
+
+
+
+
+css for table 
+
+
+
+table {width:70%; height: 30%; border: 3px solid red;}
+th {border: 2px solid blue;}
+td {border: 1px solid red;}
+tr:hover {background-color: #ddd;}
+tr:nth-child(even){background-color: #f2f2f2;}
+
+
+table {width:70%; height: 30%; border: 3px solid red;
+border-collapse: separate;}
+th {border: 2px solid blue;}
+td {border: 1px solid red;}
+tr:hover {background-color: #ddd;}
+tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+
+
+
+Assignment github
+
+
+
+<html>
+<head>
+<style>
+a[target] {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+<h2>CSS [attribute] Selector</h2>
+<p>பின்னணி மஞ்சளாக எங்கெல்லாம் மாறுகிறது, பாருங்கள். </p>
+<a href="https://www.kaniyam.com">Kaniyam</a>
+<a href="http://www.ilugc.in" target="_blank">ILUGC</a>
+<a href="http://www.wikipedia.org" target="_blank">Wikipedia</a>
+</body>
+</html>
+
+------
+
+<html>
+<head>
+<style>
+[title~=linux] {
+  border: 5px solid red;
+}
+</style>
+</head>
+<body>
+
+<h2>[attribute~="value"] ஸ்டைல் டேக்கைப் பாருங்கள்</h2>
+<p>attribute (இங்கே title)ஐப் பொருத்து ஸ்டைல் மாறுகிறதா</p>
+
+<img src="rabbit.jpeg" title="animal" width="150" height="113">
+<img src="linux.jpeg" title="linux" width="224" height="162"> 
+<img src="linux.jpeg" title="logo of linux" width="150" height="113">
+
+</body>
+</html>
+
+-------
+
+
